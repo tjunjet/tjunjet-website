@@ -21,3 +21,26 @@ h2 {
 h3 {
   color: #35858B;
 }
+
+/* For the most important headers */
+.subject {
+  font-weight: bold;
+  color: #35858B;
+}
+
+.subject-content {
+  text-align: left;
+}
+
+.school {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.schoolname {
+  font-weight: bold;
+}
+
+.jobscope {
+  font-style: italic;
+}
