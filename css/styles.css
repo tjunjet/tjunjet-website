@@ -15,6 +15,11 @@ hr {
   margin: 0 auto;
 }
 
+.core-content {
+  padding-left: 80px;
+  width: 90%
+}
+
 /* Touching up so that the container is not disrupted by left and right float */
 header::after {
   content: '';
