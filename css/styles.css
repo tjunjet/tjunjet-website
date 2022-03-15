@@ -10,6 +10,53 @@ hr {
   border-color: grey;
 }
 
+.container {
+  margin: 0 auto;
+}
+
+/* Touching up so that the container is not disrupted by left and right float */
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+header {
+  background: #55D6AA;
+}
+
+
+
+/* Move photo to the left of the header */
+.photo {
+  float: left;
+}
+
+/* Move NavBar to the right of the header */
+nav {
+  float: right;
+}
+
+/* Style for the unordered list in my NavBar */
+nav ul {
+  /* Remove the top margin */
+  margin: 0;
+  /* Remove Padding */
+  padding: 0;
+  /* Remove the bullet points */
+  list-style: none;
+}
+
+/* For the individual list items */
+nav li {
+  /* Makes them go side by side */
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 h1 {
   color: #35858B;
 }
