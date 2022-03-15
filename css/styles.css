@@ -24,11 +24,13 @@ h3 {
 
 /* For the most important headers */
 .subject {
+  font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: #35858B;
 }
 
 .subject-content {
+  font-family: Helvetica, sans-serif;
   text-align: left;
 }
 
@@ -44,3 +46,23 @@ h3 {
 .jobscope {
   font-style: italic;
 }
+
+/* Nav Bar */
+/* .nav-bar {
+  position: fixed;
+  width: 15%;
+  height: 100%;
+  margin: 0;
+  background: black;
+}
+
+.nav-bar > .element {
+  width: 19.5%;
+  line-height: 50px;
+  text-align: center;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  font-family: Arial;
+  text-decoration: none;
+} */
