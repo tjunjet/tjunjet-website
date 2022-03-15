@@ -11,6 +11,7 @@ hr {
 }
 
 .container {
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -23,6 +24,7 @@ header::after {
 
 header {
   background: #55D6AA;
+  font-family: Georgia, serif;
 }
 
 
@@ -52,9 +54,17 @@ nav li {
   /* Makes them go side by side */
   display: inline-block;
   margin-left: 40px;
-  margin-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+/* Decorating the hyperlink */
+nav a {
+  display: inline-block;
+  /* Removing the underline */
+  text-decoration: none;
+  /* All caps */
+  text-transform: uppercase;
 }
 
 h1 {
@@ -93,23 +103,3 @@ h3 {
 .jobscope {
   font-style: italic;
 }
-
-/* Nav Bar */
-/* .nav-bar {
-  position: fixed;
-  width: 15%;
-  height: 100%;
-  margin: 0;
-  background: black;
-}
-
-.nav-bar > .element {
-  width: 19.5%;
-  line-height: 50px;
-  text-align: center;
-  color: white;
-  display: inline-block;
-  margin: 0;
-  font-family: Arial;
-  text-decoration: none;
-} */
